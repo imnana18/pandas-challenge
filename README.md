@@ -39,7 +39,7 @@ This project involves analyzing school district data using the Pandas library in
 - Utilized the per_school_summary DataFrame to analyze school performance based on school type.
 - Created a DataFrame ("type_summary") for this purpose.
 
-## Observable Trends
+
 
 1. **Impact of School Size:**
    - Smaller schools tend to have higher overall passing percentages compared to larger ones.
@@ -48,6 +48,29 @@ This project involves analyzing school district data using the Pandas library in
 2. **Effect of Spending per Student:**
    - Schools with lower spending per student often show higher overall passing percentages.
    - Efficient allocation of resources might be a contributing factor to academic success.
+
+
+# Observable Trends
+In analyzing the district data encompassing 15 schools, a notable observation is the discrepancy in passing rates between reading (85.81%) and math (74.98%), with only 65.17% passing both subjects. This suggests a potential area of improvement in math education across the district.
+
+## Individual School Performance
+Examining individual schools, the top five performers based on overall passing rates are **Cabrera High School**, **Thomas High School**, **Griffin High School**, **Wilson High School**, and **Pena High School**. Conversely, the lowest performers include **Rodriguez High School**, **Figueroa High School**, **Huang High School**, **Hernandez High School**, and **Johnson High School**. It's crucial to note that the poorer performing schools generally have significantly fewer students than their higher-performing counterparts.
+
+## Impact of School Size
+A closer look at overall passing rates based on school size reveals that while there isn't a substantial difference in average scores for individual subjects, there is a marked increase in passing rates for smaller to medium-sized schools compared to larger ones. This highlights potential advantages in fostering a more intimate learning environment.
+
+## School Spending Effects
+Analyzing scores based on school spending demonstrates that both insufficient and excessive spending per student correlate with lower overall passing rates. Notably, spending over $1.70 million per student is associated with a drastic decrease in scores, indicating the importance of effective resource allocation.
+
+## School Type Comparison
+The scores categorized by school type reveal a significant disparity, with **charter schools** outperforming **district schools**. Charter schools exhibit an overall passing rate approximately 40% higher than that of their district counterparts, emphasizing the potential benefits of the charter school model.
+
+In conclusion, this analysis provides valuable insights into various factors influencing school performance. Addressing the observed disparities in math scores, considering the impact of school size, optimizing spending per student, and exploring the successful practices of charter schools can contribute to informed decision-making for enhancing overall student success. For a detailed walkthrough of the analysis, refer to the Jupyter Notebook file in this repository.
+
+
+
+
+
 
 ## Conclusion
 
